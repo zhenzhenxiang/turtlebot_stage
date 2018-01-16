@@ -17,8 +17,8 @@ define diff_drive_robot position
 
   odom_error [0.03 0.03 999999 999999 999999 0.02]
 
-  size [ 0.25 0.25 0.40 ]
-  origin [ 0.0 0.0 0.0 0.0 ]
+  size [ 0.40 0.30 0.40 ]
+  origin [ 0.0 -0.1 0.0 0.0 ]
   gui_nose 1
   color "red"
 
