@@ -63,9 +63,9 @@
 
   <!--  ************** Navigation  ***************  -->
   <!--include file="$(find turtlebot_navigation)/launch/includes/move_base.launch.xml"/-->
-  <include file="$(find navigation_launch)/launch/rviz_controlled.launch">
-    <arg name="use_laser_obstacles" value="true" />
-    <arg name="use_amcl" value="false" />
+  <include file="$(find navigation_launch)/launch/rviz_controlled_sim.launch">
+    <arg name="use_planner_static" value="true" />
+    <arg name="use_planner_default" value="false" />
   </include>
 
   <node name="ackermann_twist_to_twist" pkg="test" type="ackermann_twist_to_twist"/>
